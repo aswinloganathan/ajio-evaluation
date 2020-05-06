@@ -20,7 +20,6 @@ public class Ajio {
 	
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-	public static Actions action;
 	
     public static void main( String[] args ) throws InterruptedException {
         

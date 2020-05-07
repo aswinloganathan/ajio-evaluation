@@ -153,6 +153,7 @@ public class Ajio {
     	//13) Click on Delete and Delete the item from Bag
     	
     	driver.findElement(By.xpath("//div[text()='Delete']")).click();
+    	Thread.sleep(3000);
     	driver.findElement(By.xpath("//div[text()='DELETE']")).click();
     	
     	//14) Close all the browsers
